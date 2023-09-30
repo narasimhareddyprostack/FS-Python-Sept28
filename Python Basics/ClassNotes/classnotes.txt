@@ -37,3 +37,23 @@ jython  :
 pypi
 rubypython
 
+
+===============================
+Identifiers:
+name in python program - Identifiers
+It can be calss name or vairable name, function or module name.
+
+Rule to defined identifiers :
+================================
+identifiers - should contains only
+              a-z  or A-Z or 0 to 9 
+			  uderscore symbols
+			  
+identifiers -should not start with any digits.
+Identifiers -should not use any keywords/reserved words
+identifiers -should not contains any special char/symbols
+identifiers - case sensitive
+
+when we can use _(underscore):
+_  : private variables
+__ : magic methods
