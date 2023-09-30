@@ -1,0 +1,39 @@
+Python Features:
+================
+
+a)Simple and Easy to learn
+  Python is simpe programming langauges,english st.
+
+ -Less keywords(33+2)
+b)Free and opensource
+  We can use python software with any licence.
+  python source code is open, we can custize based on required.
+  
+  
+c)HighLevel Programing Language
+  Python Interpretor	
+d)Python - Functional and Object oriented 
+  def add(a,b):
+	  print(a+b)
+  add(10,20)
+  add(10,20)
+  add(10,20)
+e)Python is - Platform Indipent and portable?
+f)Dynamic Typed Programing Language.
+  we are not required to declare type for variable.
+  
+  ename = "Rahul"
+  eid = 101
+  
+  ename = 101 
+g)Extensive Library.
+i)Python is extensible and embeded
+  We can use other programs in python
+  we cn use python program in other programming.
+  
+with help of python flavors:
+cpython
+jython  : 
+pypi
+rubypython
+
