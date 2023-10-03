@@ -5,5 +5,7 @@ def wish():
 #read/invoke function
 wish()
 
+
+#delete function - usin del keyword
 del wish
 wish()

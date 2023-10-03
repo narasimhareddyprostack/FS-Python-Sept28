@@ -57,3 +57,153 @@ identifiers - case sensitive
 when we can use _(underscore):
 _  : private variables
 __ : magic methods
+
+
+keywords/reserved words (33+2)
+==============================
+
+
+Data Types:
+
+We are not required to specify the Data type explicitly.
+
+brand="Peter England"
+
+based on value, python will assign the type automatticlly.
+
+14 Data types
+
+1.int
+2.float 
+3.str
+4.bool 
+5.complex
+6.range
+7.list
+8.tuple
+9.set
+10.dict 
+
+
+11.bytes
+12.bytearray
+13.frozenset
+14.None
+
+1.<class,int>
+2.<class,float> 
+3.<class,str>
+4.<class,bool> 
+5.<class,complex>
+6.<class,range>
+7.list
+8.tuple
+9.set
+10.dict 
+11.bytes
+12.bytearray
+13.frozenset
+14.None
+======================================
+Python - inbuilt functions:
+
+input()  : read the data from console/terimal
+print()  :print some thing on console. 
+id()     :return address the variable 
+type()   :return type of variable 
+len()    :return size of list,
+int()    :
+
+
+int Data type:
+================
+a = 100 
+whole numbers(integral value) 
+1.Decimal form 
+2.Binary form 
+3.Octal form 
+4.HexaDeciam form 
+
+a = 3487
+b = 0b1111
+c = 0o43
+d = 0xABC
+
+#Decimal format -     Base-10 
+Default Number system in python. Allowed digits are 0 to 9 
+
+#Binary Format - Base -2 
+Allowed digts are only 0 and 1 
+literal value prefix with 0b or 0B
+Octal Format  - Base-8 (0 to 7)
+literal value prefix with 0o or 0O 
+
+Example Program:
+#how to reprent int data type in python
+
+a = 3487     #Decimal format -     Base-10 
+b = 0B1111   #Binary format  -     Base-2  
+c = 0O43     #Octal format   -     Base-8
+d = 0XABC    #Hexa Decimal format -Base-16
+
+print(a)    #3487
+print(b)    #15
+print(c)    #35
+print(d)    #2748
+
+Hexa Decimal format:Base-16
+--------------------
+0 to 9 and a-f or A-F 
+literal value prefix with 0x or 0X 
+
+Pyton float Data Type:
+-using floating point values(decimal values)
+esal = 45000.45 
+print(type(esal))
+
+#bool data type
+======================
+flag values 
+
+1 - True
+0 - False 
+
+
+Python - Data Type and it Functions 
+=====================================
+1.int      : int()
+2.float    : float()
+3.str      : str()
+4.bool     : bool()
+5.complex  :complex()
+
+6.range    :range()
+7.list     :list()
+8.tuple    :tuple()
+9.set      :set() 
+10.dict    :dict()
+
+11.bytes   :bytes()
+12.bytearray:bytearray()
+13.frozenset:flozenset()
+14.None     
+=============================
+
+list: if you want represent group of elements 
+      as one entity - nothing but list 
+
+tuple:exclty list type only but read only version list 
+
+set :group of unique elements/ duplicates are not allowed
+dict:group of of key:value pains
+
+
+eid = 101   #single value 
+
+eids = [101,102,103,104] #multiple values list,set,tuple,dict 
+
+
+bytes:
+-reprent group of elements, range from 0 to 256 
+bytearray
+
