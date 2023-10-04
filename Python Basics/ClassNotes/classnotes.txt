@@ -83,8 +83,6 @@ based on value, python will assign the type automatticlly.
 8.tuple
 9.set
 10.dict 
-
-
 11.bytes
 12.bytearray
 13.frozenset
@@ -206,4 +204,62 @@ eids = [101,102,103,104] #multiple values list,set,tuple,dict
 bytes:
 -reprent group of elements, range from 0 to 256 
 bytearray
+-reprent group of elements, range from 0 to 256 
 
+
+================================================
+IDE 
+Integrated Learning Environment
+
+Google - best ide for Python
+VS Code 
+Thonny
+Jupyter notebook
+Pycharm
+Spider
+Atom
+
+
+14 - Data type
+int - int()
+float - flot()
+
+bool() - 
+we can use this function, convert other type to bool type.
+
+print(bool(100))           #True  - non zero  
+print(bool(0))             #False - zero
+print(bool("True"))        #True
+print(bool("False"))       #Trye
+print(bool(549.90))        #True
+print(bool(00.00))         #False
+
+bool(x)
+if x - int type
+   0 means False 
+   Non-Zero means True 
+   
+if x - str type 
+   x value - empty string - False 
+   other True 
+   
+if x - float 
+
+   total number is zero - False 
+   other wise result true.
+============================
+
+Immutability:
+Once we create object, we cant perform any chages in that object.
+
+bytes vs bytearray:
+
+TypeError: 'bytes' object does not support item assignment
+
+bytes - are immutable
+bytearray - mutable object
+
+bytes must be in range(0, 256)
+
+
+TypeError: 'bytes' object does not support item assignment
