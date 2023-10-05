@@ -263,3 +263,132 @@ bytes must be in range(0, 256)
 
 
 TypeError: 'bytes' object does not support item assignment
+
+===================================
+list,tuple,set,dict,string 
+
+
+Python operators:
+
+-Operator is symbol that perform certain operation.
+
+Arithmatic Operators
+Logical OPerators
+Relation Operator 
+Assignment OPerators
+Special Operator
+    a)identity operators
+	b)Membership operators
+bitwise operators
+
+
+
+python - buitlin function (35-40)
+==========================
+input()
+print()
+id()
+type()
+eval()
+
+int()
+bool()
+str()
+floot()
+complex()
+list()
+tuple()
+set()
+dict()
+bytes()
+bytearray()
+frozenset()
+range()
+
+
+len()
+count()
+min()
+max()
+
+
+Special Operator
+    a)identity operators   - is , is not 
+	b)Membership operators - in , not in 
+
+Identity Operators:  
+- address comparision
+
+a = 100 
+b = 100 
+print(a is not b)
+	
+== operator vs is Operator 
+---------------------------
+
+a = 100 
+b = 100 
+print(a is b) # True
+print(a == b) # True
+
+
+ == operator is for content comparision
+ is - operator is for address comparision
+
+Membership Operators: in , not in 
+
+enames=['rahul','sonia','priyanka']
+'rahul' in enames  -> True 
+
+to Check whether given value/element present in list or not 
+
+What is sequences/Collection: list,String,Set,Tuple,Dict
+
+
+What is python fuction?
+group of statement for specific purpose.
+
+def add():
+    pass 
+	
+type of function?
+User Defined Function and Predefined/in built Functions
+
+
+Inbuilt Functions:
+===================
+input() :  
+print() :
+type()
+id()
+eval()
+len()
+count()
+min()
+max()
+
+data type related fuction 
+=========================
+int()
+bool()
+str()
+float()
+complex()
+list()
+dict()
+set()
+tuple()
+bytes()
+bytearray()
+frozenset()
+range()
+
+data type - function 
+=====================
+bin()
+oct()
+hex()
+===================================
+input(): Reading data from keyboard
+ 
+ 

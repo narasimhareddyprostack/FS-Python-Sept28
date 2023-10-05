@@ -1,1 +1,6 @@
-print(100>0 and 10<200)
+print(0 and 0)
+
+
+print("Rajni" and 0)
+print("Rajni" and "Nayanatara")
+print(0 and "Rajni")
