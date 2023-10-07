@@ -1,0 +1,42 @@
+conditional and iteratively
+
+what are conditional in python?
+
+if
+if-else
+elif 
+
+iterative flow st:
+for 
+while 
+
+break
+continue 
+
+
+
+#0 - sunday 
+#1 - Monday
+#2 - Tueday
+num = int(input("Enter Number"))
+
+if num == 0:
+    print("Sunday")
+elif num ==1:
+    print('Monday')
+elif num == 2:
+    print('Tueday')
+elif num ==3:
+    print("Wednesday")
+elif num ==4:
+    print("Thursday")
+elif num == 5:
+    print("Friday")
+else:
+    print("Tomorrow is Saturday")
+
+	
+	
+	
+#Write a program - check given number is 3 digit number or not
+
