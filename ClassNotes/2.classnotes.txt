@@ -12,6 +12,7 @@ while
 
 break
 continue 
+pass
 
 
 
@@ -40,3 +41,49 @@ else:
 	
 #Write a program - check given number is 3 digit number or not
 
+Transfer Statements
+===================
+break
+continue 
+pass
+
+pass keyword?
+
+for x in []:
+    pass 
+
+to define
+ - empty Statements
+ - null Statement
+ - pass the error/wont do any thing
+
+
+break:keyword
+We can use break Statement, inside for loop and while loop, execute based on condition.
+
+-break: come to out from loop Statement.
+
+continue:
+========
+we can use continue keyword/Statement, to skip current iteration, and contiue next iteration.
+
+#print 1,2,3,4,6,7,8,9,10
+
+for x in range(1,11):
+    if x == 5:
+       contiue
+    else:
+      print(x)
+
+
+
+
+
+
+break vs continue
+===================
+break - keyword using in loop, when ever break will execute, it come out from loop
+continue - skip current iteration, and execute next iteration.
+
+Basic Data Structure - List,Tuple,Set,Dict,String,
+Fuction ->inner Fuction ->recursive Function->lambda Function->Decorators->Generators
