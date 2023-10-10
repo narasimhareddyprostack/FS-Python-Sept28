@@ -87,3 +87,19 @@ continue - skip current iteration, and execute next iteration.
 
 Basic Data Structure - List,Tuple,Set,Dict,String,
 Fuction ->inner Fuction ->recursive Function->lambda Function->Decorators->Generators
+
+
+===================================
+list method:
+
+index()
+count()
+append()
+insert()
+extend()
+pop()
+remove()
+clear()
+
+sort()  - homogenous list
+reverse()
