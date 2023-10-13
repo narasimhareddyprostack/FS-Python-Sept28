@@ -247,6 +247,32 @@ emp = { 'id':101, 'name':'rahul'}
 duplicate keys are not allowed, but values are allowed.
 index and slicing is not applicable.
 insetion order not preserved.
+=====================================================
+
+Python Functions:
+
+Type of arguments
+
+def add(a,b,c):
+    pass
+
+
+add(10,20,30)
+
+'''
+what is a,b,c:positional arguments/formal arguments
+what is 10,20,30: actual arguments
+'''
+python - function Arguments
+1.Positional Arguments
+2.keyword arguments
+3.default Arguments
+  we are providing default valeus for positional arguments
+  
+4.variable length arguments
+
+
+
 
 
 
