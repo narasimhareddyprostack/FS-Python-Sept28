@@ -77,3 +77,105 @@ reduce function
 reduce() -reduces sequence of elements into a single elements -
 
 reduce(function,sequence)
+
+
+
+
+def outer():
+	def inner():
+	   pass 
+
+	return inner 
+
+
+outer()
+
+
+
+Recursive function
+------------------
+function calls itself- known as Recursive function.
+
+
+fact(5)=5*4*3*2*1  = 120 
+fact(6)=6*5*4*3*2*1= 720
+
+
+def factorial(n):
+	pass
+
+result = factorial(6)
+print(result)
+
+
+
+Python modules
+================
+user defined modules and inbuitl modules
+
+Every python file acting as modules.
+
+Module contains - variable st  
+                  fucntion st     ==== module members 
+				  class st 
+==========================================
+
+variours possibilites to import modules:
+
+
+import modulename
+ex:import central
+   import os 
+   import sys 
+   import csv 
+   
+import modulename1,modulename2,module3
+ex: import os,sys,csv
+ 
+import modulename as mn 
+ex:
+import math as rajni 
+
+import modulename1 as one ,modulename2 as two,module3 as three
+
+from modulename import members
+
+Ex: from math import pi
+
+from modulename improt * 
+
+from modulename import member as one
+
+
+
+random module:
+========================
+several functions to generate random values.
+
+#print 10 random numbers range between 10 to 100
+
+78
+43
+34
+89
+randint()   : To generate random integer between given numbers
+randrange() :
+random()    :generate float values between 0 to 1(exclusive)
+uniform()   :
+choise      :it wont generate any random numbers
+
+
+from random import randint 
+
+for x in range(10):
+	print(randint(10,100))
+	
+	
+from random improt random
+
+
+for x in range(10):
+	print(random())
+
+   
+rangerange([start],stop,[step])
