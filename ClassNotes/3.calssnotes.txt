@@ -1,0 +1,79 @@
+anonymous function/nameless function:
+===================
+instant use 
+
+in python-we have inbuilt function 
+
+map(function,iterable)
+filter(function,iterator)
+
+reducer(function,iterable) -functools
+
+
+def add(a,b):
+	print(a+b)
+	
+add()
+
+
+def add(a,b):
+	return a+b
+	
+add()
+
+
+syntax lambda:
+===============
+lambda arguments:expression
+
+
+add=lambda a,b:a+b
+
+def add(a,b):
+	retunr a+b
+	
+Advantage:
+instant use 
+consice code 
+
+by using lambda, we can write short code, 
+improving code readability.
+
+def calc_age(year):
+		return 2023-year 
+		
+print(calc_age(1984))
+
+===============
+map(function,sequence)
+filter(function,sequence):to filter the values from given sequence.
+
+reduce(function,sequence)
+
+=============================
+decorator
+
+def outer():
+    print('outer function')
+    
+    def inner():
+        print("inner function")
+
+
+
+outer()
+inner()
+
+NameError: name 'inner' not defined.
+
+
+
+Decorator: is function, it take one function as argument,
+and modify the function, and return the modified function.
+	
+
+reduce function
+==============
+reduce() -reduces sequence of elements into a single elements -
+
+reduce(function,sequence)
