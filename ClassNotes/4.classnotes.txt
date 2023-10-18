@@ -1,0 +1,70 @@
+Text Files
+==========
+character Data
+
+Binary files
+--------------
+Audio, Videos, images
+
+open()-function
+
+
+Writing Data 
+============
+write(strvalue)
+writelines(list of lines)
+
+
+file - modes
+============
+r :open the existing file for read operaion.
+   filepoint : position at starting of file.
+   Note: If file not available, we will get FileNotFoundError.
+   
+r+:read and write.
+w :
+
+w+:
+a :
+a+:
+
+x :exclusive creation mode 
+
+
+w+  : write and read  : overriding 
+r+  :reading and writing
+
+fp=open()
+what is fp - file pointer/file object
+various properties of file object.
+
+
+name
+mode
+readable()
+writable()
+closed
+
+
+	fp=open("one.txt", 'w')
+	fp.close()
+
+name   - one.txt 
+mode   - w 
+readable()-False
+writable()-True
+closed    -True
+
+
+fp=open("one.txt", 'w')
+
+print(fp.name)
+print(fp.mode)
+print(fp.readable())
+print(fp.writable())
+print(fp.closed)
+fp.close()
+
+print(fp.closed)
+================
+

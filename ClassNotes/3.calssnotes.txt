@@ -145,6 +145,11 @@ Ex: from math import pi
 from modulename improt * 
 
 from modulename import member as one
+====================================
+
+
+
+
 
 
 
@@ -179,3 +184,19 @@ for x in range(10):
 
    
 rangerange([start],stop,[step])
+
+
+choise():
+it wont generate any random number.
+but, it will return random element from list/tuple/set/sequence
+
+enames=['rahul','sonia','priyanka','modi']
+
+from random import choise
+
+for x in range(20):
+	print(choise(list))
+	
+	
+	
+====================
