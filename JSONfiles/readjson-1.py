@@ -7,6 +7,10 @@ employees=json.load(fp)
 print(employees)
 #print all employee names, or print emp id 
 
+
+
+
+
 for emp in employees:
     #print(emp['name'])
     print(emp['id'])
