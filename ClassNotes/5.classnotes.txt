@@ -1,0 +1,54 @@
+when to use instance variable?
+when to use static variable?
+
+if variable value is varied from object to  object - instance variable
+if variable value is not varied from object to  object - static variable
+
+How to create,Read,update,delete - instance variable?
+How to create:instance variable
+-----------------------------------------
+inside a constructor - using self variable.
+inside a instance method -using self variable 
+outside a class, using object ref 
+
+How to Read:instance variable
+------------------------------
+Inside a class-using self 
+outside a class using object.
+
+
+How to update:instance variable
+------------------------------
+Inside a class-using self 
+outside a class using object.
+
+
+How to Delete:instance variable
+------------------------------
+inside a class  -  del self.varaible 
+outside a class  - del object.variable 
+
+
+static variable?
+----------------
+class Account:
+      min_bal = 500
+	  
+How to create Static varible?
+-------------------------------
+inside class, out side any method 
+inside constructor,using class name
+inside instance method using class name 
+inside classmethod, using cls, and class name 
+inside static method using classname 
+
+
+How to read Static varible? 
+--------------------------
+inside a constructor- using classname,self variable 
+inside instance method -using classname,self 
+inside classmethod - cls, classname
+
+inside static method - using classname 
+outside a class - using classname, object
+	  
