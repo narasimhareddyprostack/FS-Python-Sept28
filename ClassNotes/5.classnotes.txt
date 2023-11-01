@@ -52,3 +52,33 @@ inside classmethod - cls, classname
 inside static method - using classname 
 outside a class - using classname, object
 	  
+
+
+
+Static methods
+=================
+-to create general utility methods we are going to use static methods.
+
+
+
+OOP - 4 Pillers
+What is abstraction?
+Hiding Essentails Details  - Secuting
+
+What is inheritance?
+- Reusing the existign class functionaliy and adding /extending new featueres.
+- Inheriting properties from one class to another class.
+
+Note: Code Reusablity
+
+
+What is encapulation?
+-bing variable + method as a one single encapulated using .
+
+What is polymorphism?
+poly - many
+morphism - forms 
+
+object - acting as many forms   : account object acting as some times SA objects ,and current object .
+operator - acting as many forms :  + , * 
+
