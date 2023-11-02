@@ -1,0 +1,13 @@
+What is inheritance?
+
+-inheriting properties from one class to another class.
+-Reusing the existing class functionaliy, and adding/extending new featueres 
+
+Types of inheritances
+====================
+Single inheritance
+Multiple inheritance
+Multi-Level inheritance
+Hybrid inheritance
+Hierarchical inheritance
+Cyclic inheritance - Not possible In java,python,js

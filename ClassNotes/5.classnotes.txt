@@ -81,4 +81,5 @@ morphism - forms
 
 object - acting as many forms   : account object acting as some times SA objects ,and current object .
 operator - acting as many forms :  + , * 
+=============================================
 
