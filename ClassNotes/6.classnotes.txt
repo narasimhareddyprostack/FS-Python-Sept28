@@ -11,3 +11,23 @@ Multi-Level inheritance
 Hybrid inheritance
 Hierarchical inheritance
 Cyclic inheritance - Not possible In java,python,js
+
+
+======================================================
+Abstraction      : hiding essential details. code securing
+                  : How to achive Abstraction in python?
+                   abc module - @abstractmethod, ABC
+Encapsulation    : binding  data + method - as single unit(Encapsulation unit)
+                   instance methods(settes and getter methdo) 
+inheritance      : Resuing existing functionaliy and adding new featues 
+Polymorphism     : many forms 
+                  operators acting as many forms 
+                  object acting as many forms  
+
+
+
+class Bank(ABC):
+      
+      @abstractmethod
+      def cal_bal(self):
+           pass 
