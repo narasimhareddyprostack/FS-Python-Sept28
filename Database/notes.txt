@@ -1,0 +1,46 @@
+database?
+
+SQL -   Based Database  : Oracle DB, MySQL, PG,Maria db etc  
+NoSQL - Bases Database  : Mongo DB, Cassandra, Redis
+
+
+Python code snippet to connect your Database?
+
+Driver Software required.
+
+Mysql connector  :python package   
+PyMongoDB        :python package
+Oracle DB        :Python package
+
+pypi.org         : Global python registry, python package
+
+
+
+SQL -Database - C++
+SQL commands - 
+
+
+Step : Install require driver software 
+
+pip install mysql-connector-python 
+
+
+How to list out installed python modules?
+
+print(help('modules'))
+
+How to use error handling in python?
+
+Pyton   : try,except,finally, raise 
+Java/JS : try,catch,finally,throw, throws 
+
+
+what is Mysql Connect method?
+it return mysql database connection object.
+
+Step: Install required modules
+
+
+
+pip3 install mysql-connector-python  #Python 3
+pip install mysql-connector-python
