@@ -44,3 +44,61 @@ Step: Install required modules
 
 pip3 install mysql-connector-python  #Python 3
 pip install mysql-connector-python
+
+
+
+
+Assignment:
+
+Invoke Rest API , Analyze data and insert into 
+1)CSV file, [create new csv file]
+2)JSON file,[crete new json file]
+3)MySQL Database - Table, 
+4)MongoDB Database. 
+
+
+Rest API URL: https://jsonplaceholder.typicode.com/users
+Method Type: GET
+Access Type: Public 
+Req Field: None
+
+Test Your API?
+How to Test Rest API?  Rest API  Test Tools?
+a)Post Man
+b)Karate
+
+
+We have to Python Script to invoke Rest API?
+How to invoke Rest API in Python?  
+
+pythion module :  requests 
+                          .get()
+                          .post()
+                          .put()
+                          .delete()
+
+
+Assignment 2:
+
+Rest API URL: https://dummyjson.com/products
+Method Type: GET
+Access Type: Public 
+Req Field: None
+
+
+Invoke products api, and write into 
+1)New json file/CSV file 
+2)Insert into Mysql Table / MongoDB Database
+
+Mysql Table 
+Table Name: products
+Column Names:pid  pname  price brand 
+            
+create table products(
+    pid int,
+    pname varchar(100),
+    price int,
+    brand varchar(32)
+)
+
+> desc products
