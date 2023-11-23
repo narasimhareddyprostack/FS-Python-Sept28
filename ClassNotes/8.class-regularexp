@@ -1,0 +1,61 @@
+Regular Expression:
+---------------------
+To Developer Programming languages(compiler and interpreterors)
+To Validate Data
+To Validate framework
+
+Python module : re 
+This module contains several inbuit functions to use Regular experssion.
+
+List of built in function re:
+--------------------------------
+import re 
+
+
+fullmatch()
+match()
+search()
+finditer()
+findall()
+compile()
+sub()
+subn()
+
+Q1. Given Number is valid mobile number not ?
+Q2. Given email is valid gmail or not 
+Q3. Given email is official company email or?
+Q4. Given text file contains - mobile and email id'
+    extract mobile number and email ids form given file, and write into separate file.
+
+How to construct regular Expression
+
+Claracter classes
+---------------------- 
+[abcd] : either a or b or c or d 
+[^abcd]: except a and b and c and d 
+[a-z]:any lower case alphabet symbol
+[A-Z]:any upper case alphabet symbol
+[a-zA-Z]:any case alphabet symbol
+[0-9]:any digit from 0-9
+[a-zA-Z0-9]:alphabetand number / alpanumber 
+[^a-zA-Z0-9]:except  alpanumber : special charcter 
+
+Quatifier classes 
+----------------------
+a*  : any number of a 
+b*  : any number of b including zero number  
+a?  :
+a{4}: Exactly 4 a' 
+
+special classes 
+----------------------
+\s : space charcter 
+\S : any charcter expect space 
+\d :Any digit from 0-9 
+
+\D :any charcter except digit  
+\w : any word charcter[a-zA-Z]
+\W : any charcter expect word(special charcters)
+.  : any charcter including special charcters
+=====================================================
+    
